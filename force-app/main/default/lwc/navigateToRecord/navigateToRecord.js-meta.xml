@@ -11,6 +11,7 @@
     <targetConfigs>
         <targetConfig targets="lightning__FlowScreen">
             <property name="recordId" type="String"/>
+            <property name="objectAPIName" label="Object API Name" required="true" type="String"/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
