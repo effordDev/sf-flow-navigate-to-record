@@ -11,7 +11,8 @@
     <targetConfigs>
         <targetConfig targets="lightning__FlowScreen">
             <property name="recordId" type="String"/>
-            <property name="objectAPIName" label="Object API Name" required="true" type="String"/>
+            <property name="objectAPIName" label="Object API Name" type="String"/>
+            <property name="pageName" label="Page Name (The unique name of the page. Ex home)" type="String"/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
